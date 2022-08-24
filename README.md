@@ -1,1 +1,1 @@
-This is an e-commerce app client made with nextjs, redux
+This is an e-commerce app made with nextjs, redux, and stripe
