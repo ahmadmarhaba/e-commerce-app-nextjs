@@ -1,0 +1,50 @@
+.card{
+    display: flex;
+    border: 1px solid #f0f0f0;
+    padding: 14px;
+    border-radius: 5px;
+    gap: 14px;
+    margin-bottom: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+.details h4{
+margin: 0;
+}
+.checkoutDiv{
+    padding: 8px 21px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    gap: 14px;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+}
+.checkout{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 14px;
+    font-size: 22px;
+}
+.empty{
+    margin: auto;
+    font-size: 26px;
+    padding: 40px 0;
+}
+.remove{
+    padding: 8px 21px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #ff5050;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

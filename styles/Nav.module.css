@@ -1,0 +1,34 @@
+.nav{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    justify-content: space-between;
+  }
+  .nav select{
+    cursor: pointer;
+  }
+  .nav input{
+    width: 100%;
+  }
+  .nav :is(input , select){
+    font-size: 20px;
+    padding: 8px 21px;
+    border-radius: 5px;
+    border: 2px solid #f0f0f0
+  }
+  .button{
+    padding: 8px 21px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    gap: 14px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .button:hover{
+    background-color: #e7e7e7;
+  }

@@ -1,0 +1,1 @@
+This is an e-commerce app client made with nextjs, redux

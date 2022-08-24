@@ -1,0 +1,45 @@
+.card{
+  width: 13em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid #f0f0f0;
+  padding: 0.4em;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.split{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card img{
+  border-radius: 5px;
+}
+.rating{
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+.rating div{
+  text-align: center;
+}
+.rating svg{
+  width:20px;
+  height:20px;
+}
+.products{
+  display: flex;
+  flex-flow: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+.price{
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card:hover{
+  background-color: #e7e7e7;
+}

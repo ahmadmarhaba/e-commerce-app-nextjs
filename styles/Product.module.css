@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+.image span:first-child {
+    min-width: 400px !important;
+}
+.card{
+    /* max-width: 30em;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 14px;
+}
+.rating svg{
+    width:20px;
+    height:20px;
+}
+.card :is(h2 , h4){
+    margin: 0;
+}
+.amount{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 22px;
+    align-items: center;
+}
+.amount input{
+    font-size: 34px;
+    width: 72px;
+    height: 44px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.amount input:hover{
+    background-color: #e7e7e7;
+  }
+  .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .price input{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff4141;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 8px 18px;
+  }
+  .price div{
+    font-size: 1.4em;
+  }
+  .price span{
+    color: red;
+  }

@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+.input{
+    padding: 8px 16px;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    width: 100%;
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.container button{
+    width: 100%;
+    padding: 10px 21px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+.error{
+    color: red;
+}
+.example{
+    margin-top: 14px;
+    background-color: #ffff97;
+    padding: 10px;
+    border-radius: 5px;
+}
